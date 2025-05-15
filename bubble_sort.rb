@@ -20,7 +20,7 @@ def bubble_sort(list)
       end
     end
     
-    sorted = (swaps < 2) ? true : false
+    sorted = (swaps <= 1) ? true : false
   end
 
   list
